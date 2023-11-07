@@ -1,3 +1,8 @@
+#This code calibrates the ESC for servo 9. This requires the parameter for servo9_function to be set to 0.
+#The code then sets the speed of the motor to 1/2 and then stops.
+#Timings are significantly longer than required due to this code not being used in the final design.
+#Contact Brett for questions.
+
 from pymavlink import mavutil
 import time
 
