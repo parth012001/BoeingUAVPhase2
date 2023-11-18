@@ -2,7 +2,7 @@ import tensorflow as tf
 import os
 import cv2
 import imghdr
-from matplotlib import pyplot as plt
+#from matplotlib import pyplot as plt
 import numpy as np
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Dropout
